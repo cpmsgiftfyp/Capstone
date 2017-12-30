@@ -25,8 +25,8 @@
     <form id="form1" runat="server">
     <div>
     
-         <div class="jumbotron">
-            <center><h1>Student</h1> </center>
+         <div class="jumbotron" style="height:10px">
+            <center><h1 style="margin-top:-25px">Student</h1> </center>
              
             
         </div>
@@ -35,7 +35,7 @@
         <div id="navbar">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="studentHome1.aspx">Student Name</a>
+  <a class="navbar-brand" href="studentHome1.aspx">Home</a>
 
   <!-- Links -->
   <ul class="navbar-nav">
@@ -107,8 +107,8 @@
 
                     <div class="col-md-8">
                         <div class="col-md-8">
-                  <asp:Button ID="submitFr" runat="server" Text="Submit" />
-                  <asp:Button ID="addMoreFr" runat="server" onClientClick="addAnswer();" Text="Add More"/>
+                  <asp:Button ID="submitFr" CssClass="btn btn-default" runat="server" Text="Submit" />
+                  <asp:Button ID="addMoreFr" CssClass="btn btn-default" runat="server" onClientClick="addAnswer();" Text="Add More"/>
                     </div>
                         </div>
                </div>

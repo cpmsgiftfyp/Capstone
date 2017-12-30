@@ -20,8 +20,8 @@
 <body>
     <form id="form1" runat="server">
     <div>
-     <div class="jumbotron">
-            <center><h1>Coordinator</h1> </center>
+     <div class="jumbotron" style="height:10px">
+            <center><h1 style="margin-top:-25px">Coordinator</h1> </center>
             
         </div>
 

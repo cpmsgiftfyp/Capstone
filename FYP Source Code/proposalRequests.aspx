@@ -20,8 +20,8 @@
 <body>
     <form id="form1" runat="server">
     <div>
-     <div class="jumbotron">
-            <center><h1>Supervisor</h1> </center>
+     <div class="jumbotron" style="height:10px">
+            <center><h1 style="margin-top:-25px">Supervisor</h1> </center>
             
         </div>
 
@@ -66,7 +66,7 @@
                  <br>
 
                   <ul class="list-group">
-    <li class="list-group-item">Student:<p><br>Project Title:<br> Description: <br><br><br>  <asp:Button ID="submitRequest" runat="server" Text="Accept" /><asp:Button ID="Button2" runat="server" Text="Reject" /><asp:Button ID="Button3" runat="server" Text="Conduct Meeting" /> </p></li>
+    <li class="list-group-item">Student:<p><br>Project Title:<br> Description: <br><br><br>  <asp:Button ID="submitRequest" CssClass="btn btn-default" runat="server" Text="Accept" /> <asp:Button ID="Button2" CssClass="btn btn-default" runat="server" Text="Reject" /><p> </p><asp:Button ID="Button3" CssClass="btn btn-default" runat="server" Text="Conduct Meeting" /> </p></li>
             
   </ul>
 

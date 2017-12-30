@@ -20,8 +20,8 @@
 <body>
     <form id="form1" runat="server">
     <div>
-     <div class="jumbotron">
-            <center><h1>Supervisor</h1> </center>
+     <div class="jumbotron" style="height:10px">
+            <center><h1 style="margin-top:-25px">Supervisor</h1> </center>
             
         </div>
 
@@ -85,7 +85,7 @@
        
                         
 
-        <asp:Button ID="Button1" runat="server" Text="Post" />
+        <asp:Button ID="Button1" CssClass="btn btn-default" runat="server" Text="Post" />
             </div>
         </div>
 

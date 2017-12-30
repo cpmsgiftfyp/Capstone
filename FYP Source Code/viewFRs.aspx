@@ -26,8 +26,8 @@
     <form id="form1" runat="server">
     <div>
     
-         <div class="jumbotron">
-            <center><h1>Student</h1> </center>
+         <div class="jumbotron" style="height:10px">
+            <center><h1 style="margin-top:-25px">Student</h1> </center>
              
             
         </div>
@@ -36,7 +36,7 @@
         <div id="navbar">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="studentHome1.aspx">Student Name</a>
+  <a class="navbar-brand" href="studentHome1.aspx">Home</a>
 
   <!-- Links -->
   <ul class="navbar-nav">
@@ -57,7 +57,7 @@
         Document Submission
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="">Use Cases</a>
+        <a class="dropdown-item" href="submitUsecase.aspx">Use Cases</a>
         <a class="dropdown-item" href="">ERD</a>
           <a class="dropdown-item" href="">Database Schema</a>
         

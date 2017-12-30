@@ -21,19 +21,21 @@
     <form id="form1" runat="server">
     <div>
         
-        <div class="jumbotron">
-            <center><h1>Student</h1> </center>
+        <div class="jumbotron" style="height:10px">
+            <center><h1 style="margin-top:-25px">Student</h1> </center>
             
         </div>
           
 
         <div id="navbar">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="studentHome.aspx">Student Name</a>
+            
 
+  <!-- Brand -->
+  <a class="navbar-brand" href="studentHome.aspx">Home</a>
+       
   <!-- Links -->
-  <ul class="navbar-nav">
+  <ul class="nav navbar-nav">
         <!-- Dropdown -->
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -67,12 +69,16 @@
         
       </div>
     </li>
+     
+         </ul>
 
-
-    <li class="nav-item">
-      <a class="nav-link" href="index.aspx">Logout</a>
+              
+  <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+      <a class="nav-link" href="index.aspx" >Logout</a>
     </li>
-  </ul>
+    </ul>
+                
 </nav>
 
             <br>

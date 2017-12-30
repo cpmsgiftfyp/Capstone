@@ -19,8 +19,9 @@
 <div>
         
                         <div class="jumbotron" style="height:10px">
-            <center> <h1 style="vertical-align:top">Capstone Project Management System</h1> </center>
-           
+                        
+            <center> <h1  style="margin-top:-25px">Capstone Project Management System</h1> </center>
+        
         </div>
                        
     <center><h3>Login</h3> </center>
@@ -57,6 +58,7 @@
                    <div class="col-md-2"
                     <div class="col-md-6">
                         <asp:Button ID="loginButton" CssClass="btn btn-default"  runat="server" Text="Login"></asp:Button>
+                        
 
                     </div>
                 </div>
